@@ -1,0 +1,177 @@
+html,
+body {
+  color: #253858 !important;
+  font-family: 'IBM Plex Sans', sans-serif; }
+
+.logo {
+  font-family: Futura PT, sans-serif !important; }
+
+.logo-description {
+  font-size: 14px; }
+
+nav {
+  -webkit-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in; }
+
+.cards {
+  -webkit-border-radius: 0.3rem !important;
+  border-radius: 0.3rem !important;
+  -webkit-box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important; }
+
+.slick-dots {
+  position: static; }
+  .slick-dots li {
+    margin: auto; }
+    .slick-dots li button::before {
+      font-size: 16px !important;
+      line-height: 0 !important; }
+
+.block {
+  margin-top: 64px;
+  margin-bottom: 64px; }
+
+.hero {
+  position: relative;
+  background: url("../images/hero-svg.svg") no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position-x: right 0;
+  background-position-x: right;
+  background-position-y: top 0;
+  background-position-y: top; }
+
+.hero-img {
+  position: relative !important; }
+
+[class*='title'],
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+  color: #253858; }
+
+.title-1 {
+  font-size: 24px; }
+
+.title-2 {
+  font-size: 18px; }
+
+.gears {
+  z-index: 1;
+  position: relative;
+  top: -0.5rem; }
+  .gears img {
+    margin-bottom: 2rem; }
+  .gears .title-2 {
+    font-size: 18px; }
+
+.underline-magic {
+  background-image: -webkit-linear-gradient(355deg, rgba(243, 208, 56, 0.2), rgba(221, 67, 114, 0.2));
+  background-image: -o-linear-gradient(355deg, rgba(243, 208, 56, 0.2), rgba(221, 67, 114, 0.2));
+  background-image: linear-gradient(95deg, rgba(243, 208, 56, 0.2), rgba(221, 67, 114, 0.2));
+  -webkit-transition: 0.2s ease-out;
+  -o-transition: 0.2s ease-out;
+  transition: 0.2s ease-out;
+  background-repeat: no-repeat;
+  -webkit-background-size: 100% 0.4em;
+  background-size: 100% 0.4em;
+  background-position: 0 100%; }
+
+.kit li {
+  position: relative;
+  padding-left: 32px;
+  margin-bottom: 1.2rem;
+  font-weight: 700; }
+  .kit li::before {
+    content: '';
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    background-image: url("../images/dot.svg");
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-position: center;
+    left: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    margin-right: 0.8rem; }
+
+.remote-card {
+  background: url("../images/city-bg.jpg") no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover; }
+  .remote-card * {
+    color: white !important; }
+
+.app-preview {
+  background: url("../images/phones-bg.svg") no-repeat;
+  -webkit-background-size: contain;
+  background-size: contain; }
+
+.btn {
+  font-size: 14px !important; }
+  .btn-lg {
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+    padding-left: 2rem !important;
+    padding-right: 2rem !important; }
+
+.form-section {
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  background: url("../images/form-bg.jpg") no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover; }
+
+.gradient-light {
+  background: -webkit-linear-gradient(355deg, rgba(243, 208, 56, 0.2), rgba(221, 67, 114, 0.2));
+  background: -o-linear-gradient(355deg, rgba(243, 208, 56, 0.2), rgba(221, 67, 114, 0.2));
+  background: linear-gradient(95deg, rgba(243, 208, 56, 0.2), rgba(221, 67, 114, 0.2)); }
+
+#map {
+  width: auto;
+  height: 400px; }
+
+footer {
+  background-color: #253858; }
+
+@media screen and (min-width: 600px) {
+  .block {
+    margin-top: 120px;
+    margin-bottom: 120px; }
+  .hero {
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-position-x: right -20rem;
+    background-position-y: top -10rem; }
+  .gears {
+    position: relative;
+    top: -3.5rem; }
+    .gears img {
+      margin-bottom: auto; }
+    .gears .title-2 {
+      font-size: 32px; }
+  .title-1 {
+    font-size: 48px;
+    line-height: 1.33; }
+  .title-2 {
+    font-size: 36px;
+    line-height: 1.33; }
+  .cards {
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important; }
+    .cards .row {
+      -webkit-box-shadow: none !important;
+      box-shadow: none !important; }
+  .kit li {
+    font-size: 18px;
+    margin-bottom: 2rem; }
+  .app-preview {
+    background-position-y: bottom; } }
