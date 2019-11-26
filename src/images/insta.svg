@@ -1,0 +1,11 @@
+<svg id="insta" xmlns="http://www.w3.org/2000/svg" width="52" height="52" viewBox="0 0 52 52">
+  <g id="Rectangle_18" data-name="Rectangle 18" fill="none" stroke="#fff" stroke-width="1">
+    <rect width="52" height="52" rx="26" stroke="none"/>
+    <rect x="0.5" y="0.5" width="51" height="51" rx="25.5" fill="none"/>
+  </g>
+  <g id="Icon_feather-instagram" data-name="Icon feather-instagram" transform="translate(16 16)">
+    <path id="Path_494" data-name="Path 494" d="M8,3H18a5,5,0,0,1,5,5V18a5,5,0,0,1-5,5H8a5,5,0,0,1-5-5V8A5,5,0,0,1,8,3Z" transform="translate(-3 -3)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="Path_495" data-name="Path 495" d="M22.748,16.518a5.37,5.37,0,1,1-4.525-4.525A5.37,5.37,0,0,1,22.748,16.518Z" transform="translate(-7.402 -7.339)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="Path_496" data-name="Path 496" d="M0,0H0" transform="matrix(0.788, -0.616, 0.616, 0.788, 15.5, 4.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  </g>
+</svg>

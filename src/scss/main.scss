@@ -1,0 +1,11 @@
+$blue: #2680eb;
+$yellow: #f3d038;
+$warning: $yellow !default;
+$primary: $blue !default;
+
+@import '../../node_modules/slick-carousel/slick/slick-theme.scss';
+@import '../../node_modules/slick-carousel/slick/slick.scss';
+
+@import '../../node_modules//bootstrap/scss/bootstrap.scss';
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,700&display=swap&subset=cyrillic');
+@import './customed.scss';
