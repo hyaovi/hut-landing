@@ -69,7 +69,12 @@ gulp.task('cssBuild', () => {
 gulp.task('imgBuild', () => {
   gulp
     .src(path.src.img)
-    .pipe(imagemin())
+    .pipe(
+      imagemin([
+        imagemin.jpegtran({ progressive: true }),
+        imagemin.optipng({ optimizationLevel: 8 })
+      ])
+    )
     .pipe(gulp.dest(path.build.img));
 });
 gulp.task('build', ['htmlBuild', 'jsBuild', 'cssBuild', 'imgBuild']);
