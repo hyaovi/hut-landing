@@ -6,13 +6,14 @@ html,
 body {
   color: $dark !important;
   font-family: 'IBM Plex Sans', sans-serif;
+  font-display: auto;
 }
 
 .logo {
-  font-family: Futura PT, sans-serif !important;
+  position: initial;
 }
 .logo-description {
-  font-size: 14px;
+  font-size: 11px;
 }
 nav {
   transition: all 0.3s ease-in;
@@ -20,9 +21,12 @@ nav {
 .cards {
   border-radius: 0.3rem !important;
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
-  // .row {
-  //   border-radius: 0.3rem !important;
-  // }
+  .illustration {
+    max-width: 200px;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 .slick-dots {
   position: static;
@@ -42,14 +46,12 @@ nav {
 }
 .hero {
   position: relative;
-  background: url('../images/hero-svg.svg') no-repeat;
-  background-size: cover;
-  background-position-x: right 0;
-  background-position-x: right;
-  background-position-y: top 0;
-  background-position-y: top;
 }
-
+.mobile-img {
+  position: relative;
+  z-index: -1;
+  top: -1.5rem;
+}
 .hero-img {
   position: relative !important;
   // height: 50vh;
@@ -72,7 +74,6 @@ h6 {
 }
 
 .gears {
-  // background-color: #f7f8fa;
   z-index: 1;
 
   position: relative;
@@ -95,6 +96,7 @@ h6 {
   background-size: 100% 0.4em;
   background-position: 0 100%;
 }
+
 .kit {
   li {
     position: relative;
@@ -137,10 +139,23 @@ h6 {
     padding-right: 2rem !important;
   }
 }
+.iframe-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
+  iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
 .form-section {
   border-radius: 8px;
-  background: url('../images/form-bg.jpg') no-repeat;
-  background-size: cover;
+  border: $dark 1px solid;
 }
 .gradient-light {
   background: linear-gradient(
@@ -151,50 +166,69 @@ h6 {
 }
 #map {
   width: auto;
-  height: 400px;
+  min-height: 300px;
+  max-height: 400px;
 }
 footer {
   background-color: $dark;
 }
+.slick-prev,
+.slick-next {
+  &::before {
+    color: black;
+  }
+}
 
-// .slick-arrow,
-// .slick-prev::before,
-// .slick-next::before {
-//   color: $dark !important;
-//   // font-size: 32px;
-// }
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 768px) {
+  .form-section {
+    border-radius: 8px;
+    background: url('../images/form-bg.jpg') no-repeat;
+    background-size: cover;
+    border: none;
+  }
+  .logo-description {
+    font-size: 14px;
+  }
   .block {
     margin-top: 120px;
     margin-bottom: 120px;
   }
   .hero {
+    padding-top: 100px;
+    background: url('../images/hero-svg.svg') no-repeat;
     background-size: contain;
-    background-position-x: right -20rem;
-    background-position-y: top -10rem;
+    background-position: top -8rem right -8rem;
   }
   .gears {
+    background-color: white;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
     position: relative;
     top: -3.5rem;
     img {
       margin-bottom: auto;
     }
     .title-2 {
-      font-size: 32px;
+      font-size: 20px;
     }
   }
   .title-1 {
-    font-size: 48px;
+    font-size: 24px;
     line-height: 1.33;
   }
   .title-2 {
-    font-size: 36px;
+    font-size: 20px;
     line-height: 1.33;
   }
   .cards {
     box-shadow: none !important;
+    .illustration {
+      max-width: 60%;
+    }
     .row {
       box-shadow: none !important;
+      p {
+        font-weight: 700;
+      }
     }
   }
 
@@ -206,5 +240,15 @@ footer {
   }
   .app-preview {
     background-position-y: bottom;
+  }
+}
+@media screen and (min-width: 769px) {
+  .title-1 {
+    font-size: 48px;
+    line-height: 1.33;
+  }
+  .title-2 {
+    font-size: 36px;
+    line-height: 1.33;
   }
 }

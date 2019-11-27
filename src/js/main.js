@@ -41,8 +41,7 @@ $('.carousel').slick({
   slidesToShow: 1,
   slidesToScroll: 1,
   arrows: false,
-  autoplay: true,
-  autoplaySpeed: 2000
+  autoplay: false
 });
 (function($) {
   var $window = $(window),
@@ -57,3 +56,8 @@ $('.carousel').slick({
     })
     .trigger('resize');
 })(jQuery);
+$('.selector').slick({
+  nextArrow: '<i >next</i>',
+  prevArrow: '<i class="fa fa-arrow-left"></i>'
+  // add the rest of your options here
+});

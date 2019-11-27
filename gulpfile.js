@@ -9,13 +9,13 @@ const path = {
     scss: 'src/scss/*.scss',
     js: 'src/js/*.js',
     css: 'src/css/',
-    img: 'src/img/*'
+    img: 'src/images/*'
   },
   build: {
     html: 'prod/',
     js: 'prod/js/',
     css: 'prod/css/',
-    img: 'prod/img/'
+    img: 'prod/images/'
   }
 };
 
