@@ -72,7 +72,7 @@ gulp.task('imgBuild', () => {
     .pipe(
       imagemin([
         imagemin.jpegtran({ progressive: true }),
-        imagemin.optipng({ optimizationLevel: 8 })
+        imagemin.optipng({ optimizationLevel: 5 })
       ])
     )
     .pipe(gulp.dest(path.build.img));

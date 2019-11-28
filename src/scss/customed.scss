@@ -85,13 +85,23 @@ h6 {
     font-size: 18px;
   }
 }
+.testimonials {
+  &-container {
+    position: relative;
+    .arrows {
+      position: absolute;
+      bottom: 2rem;
+      z-index: 2;
+    }
+  }
+}
 .underline-magic {
   background-image: linear-gradient(
     95deg,
     rgba($color: #f3d038, $alpha: 0.2),
     rgba($color: #dd4372, $alpha: 0.2)
   );
-  transition: 0.2s ease-out;
+  transition: 0.1s ease-out;
   background-repeat: no-repeat;
   background-size: 100% 0.4em;
   background-position: 0 100%;
@@ -139,6 +149,10 @@ h6 {
     padding-right: 2rem !important;
   }
 }
+.arrow {
+  cursor: pointer;
+}
+
 .iframe-container {
   position: relative;
   width: 100%;
@@ -194,7 +208,7 @@ footer {
     margin-bottom: 120px;
   }
   .hero {
-    padding-top: 100px;
+    padding-top: 1rem;
     background: url('../images/hero-svg.svg') no-repeat;
     background-size: contain;
     background-position: top -8rem right -8rem;
