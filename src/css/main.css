@@ -9270,8 +9270,6 @@ h6 {
   top: -0.5rem; }
   .gears img {
     margin-bottom: 2rem; }
-  .gears .title-2 {
-    font-size: 18px; }
 
 .testimonials-container {
   position: relative; }
@@ -9336,6 +9334,9 @@ h6 {
 .arrow {
   cursor: pointer; }
 
+.qa h5 {
+  cursor: pointer; }
+
 .iframe-container {
   position: relative;
   width: 100%;
@@ -9397,8 +9398,6 @@ footer {
     top: -3.5rem; }
     .gears img {
       margin-bottom: auto; }
-    .gears .title-2 {
-      font-size: 20px; }
   .title-1 {
     font-size: 24px;
     line-height: 1.33; }
