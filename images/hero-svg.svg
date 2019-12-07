@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="785.401" height="676.915" viewBox="0 0 785.401 676.915">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.59" y1="0.093" x2="0.181" y2="0.892" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#efeff0"/>
+    </linearGradient>
+  </defs>
+  <path id="hero-svg" d="M1097.548,480.7C986.681,742.924,625.97,825.679,439.646,733.068S318.107,168.715,482.583,105.623,1208.416,218.48,1097.548,480.7Z" transform="translate(-326.529 -92.758)" fill="url(#linear-gradient)"/>
+</svg>

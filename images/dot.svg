@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="23" height="23" viewBox="0 0 23 23">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 2px;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="1.135" y1="1.211" x2="0.173" y2="0.087" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e98e53"/>
+      <stop offset="1" stop-color="#fc0"/>
+    </linearGradient>
+  </defs>
+  <g id="check" transform="translate(-387 -4562)">
+    <circle id="Ellipse_121" data-name="Ellipse 121" class="cls-1" cx="11.5" cy="11.5" r="11.5" transform="translate(387 4562)"/>
+    <path id="Icon_feather-check" data-name="Icon feather-check" class="cls-2" d="M13.74,9,8.419,14.321,6,11.9" transform="translate(388.909 4561.758)"/>
+  </g>
+</svg>
