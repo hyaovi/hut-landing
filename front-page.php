@@ -132,30 +132,21 @@
       <div class="row  flex-wrap-reverse">
         <div class="col-md-8  mt-4 mt-md-5">
           <ul class="list-unstyled kit">
-            <li>Контроллер hut_bot с функцией антивзлома</li>
-            <li>
-              Электромеханический замок <br />
-              <span class=" font-weight-normal">
-                (открытие до 2х дверей, работает без электричества)</span>
-            </li>
-            <li>Открытие до 2х домофонов</li>
+            <li>Контроллер с функцией антивзлома </li>
+            <li>Открытие до 2х домофонов </li>
+            <li>Электромеханический замок Полис 13М</li>
             <li>Антивор – датчик положения открытия и закрытия двери</li>
             <li>Счетчик посещения</li>
+            <li>Датчик шума</li>
+            <li>rfid меток 10 шт.</li>
+            <li>Провода</li>
+            <li>Инструкция по установке</li>
             <li>Монтаж за 3 часа</li>
             <li>Обучение</li>
-
-            <div class="collapse" id="list">
-              <li>Видеокамера</li>
-              <li>Датчик дыма</li>
-              <li>Датчик протечки воды</li>
-              <li>Автоматический клапан перекрытия воды</li>
-            </div>
           </ul>
+          <h5 class='font-weight-bold gradient-light p-2'>Комплект HutSharing работает с более 50 электромеханическими
+            замками</h5>
 
-          <button class="btn btn-light btn-lg mb-3" type="button" data-toggle="collapse" data-target="#list"
-            aria-expanded="false" aria-controls="list">
-            Дополнительное оборудование
-          </button>
         </div>
         <div class="col-6 mx-auto col-md-4">
           <img src="<?php bloginfo('template_directory');?>/images/kitbox.png" alt="" class="img-fluid" />
