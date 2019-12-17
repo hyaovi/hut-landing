@@ -124,25 +124,6 @@
           </div>
         </div>
       </div>
-      <div>
-        <div class="row mx-2 mx-md-auto p-1 align-items-center mb-md-5">
-          <div class="col-md-6 my-4">
-            <img class="img-fluid illustration" src="<?php bloginfo('template_directory');?>/images/illustration-5.svg"
-              alt="" />
-          </div>
-          <div class="col-md-6">
-            <h4 class="title-2 mb-4 text-primary text-center text-md-left">
-              Клининг квартиры
-            </h4>
-            <p class="text-center text-md-left">
-              Заказывайте клининг из мобильного приложения. Все клинеры
-              работают строго по регламентам, обладают всем необходимым для
-              повседневной уборки.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
   </section>
   <!-- {/* CARDS END */} -->
   <div class="container block">
