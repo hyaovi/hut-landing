@@ -10,13 +10,13 @@
         <div class="container">
           <div class="row align-items-center">
             <div class="col-md-7 col-11">
-              <h2 class="title-2 ">Контроллер HUT_BOT</h2>
+              <h2 class="title-2">Система контроля</h2>
               <h1 class=" title-1 mb-md-5 ">
-                <b>Помогает собственникам</b> <br />
-                <span class="font-weight-normal">и агентам</span>
-                <b> увеличить прибыль</b> <br />
+                <b>удаленного доступа</b> <br />
+                <span class="font-weight-normal">и автоматизации задач</span>
+                <br/>
                 <span class="font-weight-normal gradient-light">
-                  при сдаче квартир посуточно .
+                   в бизнесе аренды квартир.
                 </span>
               </h1>
             </div>
@@ -48,11 +48,11 @@
 
                   <div class="col">
                     <h4 class="title-2 text-center text-md-left text-primary">
-                      Автоматизация бизнеса
+                      Комплект HutSharing помогает собственникам
+и агентам увеличить прибыль, избавиться от нежелательных гостей и защитить имущество. 
+
                     </h4>
-                    <p class="text-center text-md-left">
-                      <b>Установите комплект HUT_BOT в арендную квартиру.</b>
-                    </p>
+                    
                   </div>
                 </div>
               </div>
