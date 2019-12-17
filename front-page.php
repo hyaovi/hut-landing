@@ -10,7 +10,7 @@
     <div class="container">
       <div class="row align-items-center">
         <div class="col-md-7 col-11">
-          <h2 class="title-2">Система контроля</h2>
+          <h2 class="title-2 ">Система контроля</h2>
           <h1 class=" title-1 mb-md-5 ">
             <b>удаленного доступа</b> <br />
             <span class="font-weight-normal">и автоматизации задач</span>
@@ -35,7 +35,7 @@
               </div>
 
               <div class="col">
-                <h4 class="title-2 text-center text-md-left text-primary">
+                <h4 class="intro-title-2 text-center text-md-left text-primary">
                   Комплект HutSharing помогает собственникам
                   и агентам увеличить прибыль, избавиться от нежелательных гостей и защитить имущество.
                 </h4>
@@ -159,8 +159,7 @@
           Управляйте арендой квартиры удаленно из мобильного приложения
         </h1>
         <h4 class="title-2">
-          Внедрите HUT_BOT в бизнес посуточной аренды и сконцентрируйте свое
-          внимание на масштабирование квартир.
+          Внедрите HutSharing в свой бизнес и сконцентрируйте свое внимание на масштабирование квартир.
         </h4>
       </div>
     </section>
@@ -208,7 +207,7 @@
     <section class="block   ">
       <div class="">
         <h1 class="title-2 mb-3 mb-md-5">
-          Регистрируйтесь в личном кабинете
+          Личный кабинет мобильного приложения
         </h1>
         <div class="row app-preview iphone-slider">
           <div class="col-md-3 col-10">
@@ -234,7 +233,7 @@
               <h5 class="mb-2 mb-md-4 text-uppercase">
                 Минимальная сумма пополнения
               </h5>
-              <h3 class="mb-4 text-primary">4990 руб.</h3>
+              <h3 class="mb-4 text-primary">9990 руб.</h3>
 
               <ul class="pricing-list mx-auto font-weight-bold">
                 <li>Комплекта hut_bot в аренду.</li>
@@ -246,7 +245,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-10 col-lg-4 col-12">
+        <!-- <div class="col-md-10 col-lg-4 col-12">
           <div class="card border-warning px-3 py-4 shadow">
             <div class="m-3">
               <h5 class="mb-2 mb-md-4 text-uppercase">
@@ -261,11 +260,9 @@
               </ul>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
-      <h5 class=" text-center mt-2 mt-md-5">
-        После оплаты с вами свяжется наш менеджер для уточнения даты монтажа
-      </h5>
+
     </section>
     <section class="form-section container">
       <div class="row">

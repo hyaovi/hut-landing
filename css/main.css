@@ -9263,7 +9263,9 @@ h6 {
 
 .title-2 {
   font-size: 18px; }
-
+.intro-title-2 {
+  font-size: 16px ;
+}
 .gears {
   z-index: 1;
   position: relative;
@@ -9430,6 +9432,10 @@ footer {
   .title-2 {
     font-size: 20px;
     line-height: 1.33; }
+    .intro-title-2 {
+  font-size: 24px ;
+  line-height: 1.5;
+}
   .cards {
     -webkit-box-shadow: none !important;
     box-shadow: none !important; }
